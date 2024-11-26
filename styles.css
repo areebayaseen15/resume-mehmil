@@ -1,0 +1,105 @@
+body {
+    font-family: cursive;
+    padding: 0px;
+    margin: 20px;
+    background-color: lightblue;
+    color: #003366;
+}
+
+h1 {
+    text-align: center;
+}
+
+.resume-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+form {
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 2px solid #003366;
+}
+
+fieldset {
+    border: 5px solid #003366;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #003366;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #003366;
+}
+
+input,
+textarea {
+    width: calc(100% - 1px);
+    padding: 8px;
+    margin-top: 4px;
+    border: lightblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    border-radius: 2px;
+    background-color: #003366;
+    color: aliceblue;
+    width: 100px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px; /* Darker shadow for 3D effect */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px;
+    display: block;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(4px); /* Moves button down */
+}
+/* Hide the section containers initially */
+#personalInfo,
+#educationSection,
+#experienceSection,
+#skillsContainer {
+    display: block; /* Show by default */
+}
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding:20px;
+    border-color: #003366;
+}
+#resumeOutput h2{
+    color:#003366;
+    
+}
+#centre {
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+  }
+  #sharable-link {
+    position: absolute;
+    top: 397%;
+  }
